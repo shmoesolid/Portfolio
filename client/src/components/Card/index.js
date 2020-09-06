@@ -26,7 +26,7 @@ export function CardThumb(props)
 {
     return (
         <div className="card-text text-center">
-            <a href={props.href} target="_blank" rel="noopener noreferrer">
+            <a href={props.href || props.src} target="_blank" rel="noopener noreferrer">
                 <img 
                     class="rounded-lg border border-dark" 
                     alt="thumb to related project"
