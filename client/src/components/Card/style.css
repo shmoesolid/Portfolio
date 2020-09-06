@@ -1,4 +1,9 @@
 .card
 {
-    background-color: #eee;
+    background-color: #eee !important;
+}
+
+.force-white
+{
+    background-color:#fff !important;
 }

@@ -14,7 +14,7 @@ function App() {
 
   return (
     <Router>
-      <div className='body_wrapper'>
+      <div className='body_wrapper text-center'>
         <Nav />
         <main>
           <Container>

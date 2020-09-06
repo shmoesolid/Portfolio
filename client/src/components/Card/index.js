@@ -1,15 +1,12 @@
 import React from "react";
 import "./style.css";
 
-export function Card({children, title})
+export function Card({children, extClass=""})
 {
     return (
-        <div className="card">
+        <div className={"card " + extClass} >
             <CardBody>
-                <CardTitle title={title} />
-                <CardText>
-                    {children}
-                </CardText>
+                {children}
             </CardBody>
         </div>
     );
@@ -20,17 +17,29 @@ export function CardBody({children})
     return <div className="card-body">{children}</div>;
 }
 
-export function CardTitle(props)
+export function CardTitle({title, extClass})
 {
-    return (
-        <div>
-            <h5 className="card-title">{props.title}</h5>
-            <hr />
-        </div>
-    );
+    return <h5 className={"card-text " + extClass}>{title}</h5>;
 }
 
-export function CardText({children})
+export function CardThumb(props)
 {
-    return <div className="card-text">{children}</div>;
+    return (
+        <div className="card-text text-center">
+            <a href={props.href} target="_blank" rel="noopener noreferrer">
+                <img 
+                    class="rounded-lg border border-dark" 
+                    alt="thumb to related project"
+                    src={props.src} 
+                    style={{ width:"240px", height:"240px" }} 
+                />
+            </a>
+        </div>
+    );
+        
+}
+
+export function CardText({children, left=true})
+{
+    return <div className={"card-text" + ((left) && " text-left")}>{children}</div>;
 }
