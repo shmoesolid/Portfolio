@@ -36,7 +36,6 @@ export function CardThumb(props)
             </a>
         </div>
     );
-        
 }
 
 export function CardText({children, left=true})
