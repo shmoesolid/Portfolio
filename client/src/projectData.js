@@ -1,12 +1,12 @@
 
 /*
     can't comment projectData definition line otherwise it is undefined upon export, but gives 
-    warning that it's never used  without defining without using eslint disable comment... cool story?
+    warning that it's never used without defining without using eslint disable comment or 
+    actually using it for some useless task... cool story?
 */
 // eslint-disable-next-line
 var projectData; 
 export default projectData = [
-
     {
         hrefDeployed: "https://patrolroom.com/gss",
         thumb: "img/thumb_gss.png",
@@ -44,12 +44,92 @@ export default projectData = [
         hrefGithub: "",
     },
     {
-        hrefDeployed: "",
-        thumb: "",
-        title: "",
-        text: "",
+        hrefDeployed: "https://empyriononline.com/threads/empdsm-server-manager-with-auto-update.5811/",
+        thumb: "img/thumb_empdsm.jpg",
+        title: "Empyrion Dedicated Server Manager",
+        text: "I'm a gamer.  I played Empyrion on Steam quite a bit and I enjoyed hosting servers.  Early in development of Empyrion "
+            + "there was no auto update feature available in their dedicated server program.  I created a wrapper for the said "
+            + "program that communicated with the dedicated server via telnet and periodically checked for updates utilizing SteamCMD.  When an update "
+            + "was located, it would notify every player in the server that it was shutting down prior to update, give the players "
+            + "time to exit the server, then proceed to update and restart the server.",
         hrefGithub: "",
     },
+    {
+        hrefDeployed: "img/winordice.png",
+        thumb: "img/thumb_winordice.png",
+        title: "WinOrdice",
+        text: "I worked for a time at Amenity Computer Services as a service manager.  I created this program to serve as their service management system.",
+        hrefGithub: "",
+    },
+    {
+        hrefDeployed: "https://shmoesolid.github.io/Coffee-Run",
+        thumb: "img/thumb_coffee-run.png",
+        title: "Coffee Run",
+        text: "An web application that utilizes your location to get nearby coffee shops.  It gives you "
+            + "a list of the locations and displays them using embedded Google Maps.",
+        hrefGithub: "https://github.com/shmoesolid/Coffee-Run",
+    },
+    {
+        hrefDeployed: "https://shmoesolid.github.io/Day-Planner",
+        thumb: "img/thumb_day-planner.png",
+        title: "Day Planner",
+        text: "A dynamic day planner with time blocks by hour so you can plan your work day.",
+        hrefGithub: "https://github.com/shmoesolid/Day-Planner",
+    },
+    {
+        hrefDeployed: "https://shmoesolid.github.io/Weather-Dashboard",
+        thumb: "img/thumb_weather-dashboard.png",
+        title: "Weather Dashboard",
+        text: "A simple weather application that gets weather data by city and displays it accordingly.",
+        hrefGithub: "https://github.com/shmoesolid/Weather-Dashboard",
+    },
+    {
+        hrefDeployed: "",
+        thumb: "img/doom-code-tile.jpg",
+        title: "README Generator",
+        text: "A CLI application that generates a README markdown file for a project.",
+        hrefGithub: "https://github.com/shmoesolid/README-Generator",
+    },
+    {
+        hrefDeployed: "",
+        thumb: "img/doom-code-tile.jpg",
+        title: "Team Generator",
+        text: "A CLI application that generates an HTML file of your team.",
+        hrefGithub: "https://github.com/shmoesolid/Team-Generator",
+    },
+    {
+        hrefDeployed: "https://utsa-express-note-taker.herokuapp.com/",
+        thumb: "img/doom-code-tile.jpg",
+        title: "Express Note Taker",
+        text: "An Express NodeJS utilzing a JSON database file that handles note taking without security.",
+        hrefGithub: "https://github.com/shmoesolid/Express-Note-Taker",
+    },
+    {
+        hrefDeployed: "",
+        thumb: "img/doom-code-tile.jpg",
+        title: "Employee Tracker",
+        text: "A CLI NodeJS application that manages an employee MySQL database.",
+        hrefGithub: "https://github.com/shmoesolid/Employee-Tracker",
+    },
+    {
+        hrefDeployed: "https://utsa-burger.herokuapp.com/",
+        thumb: "img/thumb_burger.png",
+        title: "Burger",
+        text: "An Express NodeJS utilzing MySQL database that adds/updates/removes burgers via a webpage.",
+        hrefGithub: "https://github.com/shmoesolid/Burger",
+    },
+    {
+        hrefDeployed: "https://exchange-stuff.herokuapp.com/",
+        thumb: "img/doom-code-tile.jpg",
+        title: "Better Barter",
+        text: "A web application (early concept), where you have a user account and can list items for "
+            + "trade based on a declared value.  You can then browse/compare other items for trade "
+            + "in a singulatory fasion accepting or refusing said trade.  Refused items will not be listed "
+            + "again unless otherwise stated.  Accepted items move both items into a trade status where "
+            + "the users would eventually complete said trade.",
+        hrefGithub: "https://github.com/shmoesolid/Exchange-Stuff",
+    },
+    /* copy for dupes
     {
         hrefDeployed: "",
         thumb: "",
@@ -57,40 +137,5 @@ export default projectData = [
         text: "",
         hrefGithub: "",
     },
-    {
-        hrefDeployed: "",
-        thumb: "",
-        title: "",
-        text: "",
-        hrefGithub: "",
-    },
-    {
-        hrefDeployed: "",
-        thumb: "",
-        title: "",
-        text: "",
-        hrefGithub: "",
-    },
-    {
-        hrefDeployed: "",
-        thumb: "",
-        title: "",
-        text: "",
-        hrefGithub: "",
-    },
-    {
-        hrefDeployed: "",
-        thumb: "",
-        title: "",
-        text: "",
-        hrefGithub: "",
-    },
-    {
-        hrefDeployed: "",
-        thumb: "",
-        title: "",
-        text: "",
-        hrefGithub: "",
-    },
-
+    */
 ];
