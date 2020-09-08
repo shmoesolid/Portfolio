@@ -84,14 +84,14 @@ export default projectData = [
         hrefGithub: "https://github.com/shmoesolid/Weather-Dashboard",
     },
     {
-        hrefDeployed: "",
+        hrefDeployed: "https://github.com/shmoesolid/README-Generator",
         thumb: "img/doom-code-tile.jpg",
         title: "README Generator",
         text: "A CLI application that generates a README markdown file for a project.",
         hrefGithub: "https://github.com/shmoesolid/README-Generator",
     },
     {
-        hrefDeployed: "",
+        hrefDeployed: "https://github.com/shmoesolid/Team-Generator",
         thumb: "img/doom-code-tile.jpg",
         title: "Team Generator",
         text: "A CLI application that generates an HTML file of your team.",
@@ -105,7 +105,7 @@ export default projectData = [
         hrefGithub: "https://github.com/shmoesolid/Express-Note-Taker",
     },
     {
-        hrefDeployed: "",
+        hrefDeployed: "https://github.com/shmoesolid/Employee-Tracker",
         thumb: "img/doom-code-tile.jpg",
         title: "Employee Tracker",
         text: "A CLI NodeJS application that manages an employee MySQL database.",
@@ -128,6 +128,36 @@ export default projectData = [
             + "again unless otherwise stated.  Accepted items move both items into a trade status where "
             + "the users would eventually complete said trade.",
         hrefGithub: "https://github.com/shmoesolid/Exchange-Stuff",
+    },
+    {
+        hrefDeployed: "https://utsa-fitness.herokuapp.com/",
+        thumb: "img/doom-code-tile.jpg",
+        title: "Fitness Tracker",
+        text: "A web application that tracks workout progress and displays stats.  Front-end was not developed "
+            + "by me, though I had to provide a fix for the stats display as they were incorrect.",
+        hrefGithub: "https://github.com/shmoesolid/Fitness-Tracker",
+    },
+    {
+        hrefDeployed: "https://utsa-budget-tracker.herokuapp.com/",
+        thumb: "img/doom-code-tile.jpg",
+        title: "Budget Tracker",
+        text: "A web application that tracks funds offline and online. Stores data locally when no longer connected "
+            + "to server. When app comes back online, it makes sure the local changes are stored in remote database.",
+        hrefGithub: "https://github.com/shmoesolid/Budget-Tracker",
+    },
+    {
+        hrefDeployed: "https://utsa-employee-directory.herokuapp.com/",
+        thumb: "img/doom-code-tile.jpg",
+        title: "Employee Directory",
+        text: "A web application that simply lists an employee directory via randomuser.me API using React.",
+        hrefGithub: "https://github.com/shmoesolid/employee-directory",
+    },
+    {
+        hrefDeployed: "https://www.npmjs.com/package/chesssk",
+        thumb: "img/doom-code-tile.jpg",
+        title: "CheSSsk",
+        text: "A Node.js library for chess move validation based on location and board data.",
+        hrefGithub: "https://github.com/shmoesolid/CheSSsk",
     },
     /* copy for dupes
     {
