@@ -8,10 +8,17 @@
 var projectData; 
 export default projectData = [
     {
+        hrefDeployed: "https://www.npmjs.com/package/chesssk",
+        thumb: "img/doom-code-tile.jpg",
+        title: "CheSSsk",
+        text: "A Node.js library for chess move validation based on location and board data.",
+        hrefGithub: "https://github.com/shmoesolid/CheSSsk",
+    },
+    {
         hrefDeployed: "https://patrolroom.com/gss",
         thumb: "img/thumb_gss.png",
         title: "Guardian Security Services",
-        text: "A website that was developed for Guardian Security Services, Inc.  It utilizes "
+        text: "A website that was developed for Guardian Security Services, Inc. It utilizes "
             + "reactive styling based on the size of the window through javascript.",
         hrefGithub: "",
     },
@@ -151,13 +158,6 @@ export default projectData = [
         title: "Employee Directory",
         text: "A web application that simply lists an employee directory via randomuser.me API using React.",
         hrefGithub: "https://github.com/shmoesolid/employee-directory",
-    },
-    {
-        hrefDeployed: "https://www.npmjs.com/package/chesssk",
-        thumb: "img/doom-code-tile.jpg",
-        title: "CheSSsk",
-        text: "A Node.js library for chess move validation based on location and board data.",
-        hrefGithub: "https://github.com/shmoesolid/CheSSsk",
     },
     /* copy for dupes
     {
