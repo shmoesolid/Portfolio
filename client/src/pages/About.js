@@ -18,10 +18,10 @@ function About() {
                     }}
                 />
                 <p style={{fontSize: "40px"}} >
-                    <a href="https://www.linkedin.com/in/shane-koehler-0033091a4/"><i className="fab fa-linkedin p-1"></i></a>
-                    <a href="https://github.com/shmoesolid/"><i className="fab fa-github-square p-1"></i></a>
-                    <a href="https://patrolroom.com/shane_koehler_resume.pdf"><i className="far fa-file p-1"></i></a>
-                    <a href="mailto:shmoesolid@gmail.com"><i className="far fa-envelope p-1"></i></a>
+                    <a href="https://www.linkedin.com/in/shane-koehler-0033091a4/" target="_blank"><i className="fab fa-linkedin p-1"></i></a>
+                    <a href="https://github.com/shmoesolid/" target="_blank"><i className="fab fa-github-square p-1"></i></a>
+                    <a href="shane_koehler_resume.pdf" target="_blank"><i className="far fa-file p-1"></i></a>
+                    <a href="mailto:shmoesolid@gmail.com" target="_blank"><i className="far fa-envelope p-1"></i></a>
                 </p>
                 <p>
                     I'm currently a deputy constable with Bexar County. I've been in law enforcement for over 10 years.  

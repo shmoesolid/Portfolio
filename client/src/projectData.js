@@ -15,11 +15,12 @@ export default projectData = [
         hrefGithub: "https://github.com/shmoesolid/CheSSsk",
     },
     {
-        hrefDeployed: "https://patrolroom.com/gss",
+        hrefDeployed: "", //https://patrolroom.com/gss
         thumb: "img/thumb_gss.png",
         title: "Guardian Security Services",
         text: "A website that was developed for Guardian Security Services, Inc. It utilizes "
-            + "reactive styling based on the size of the window through javascript.",
+            + "reactive styling based on the size of the window through javascript "
+            + "(example site down temporarily).",
         hrefGithub: "",
     },
     {
