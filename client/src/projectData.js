@@ -23,12 +23,12 @@ export default projectData = [
         hrefGithub: "",
     },
     {
-        hrefDeployed: "https://patrolroom.com/gss/gsecurio",
+        hrefDeployed: "", //https://patrolroom.com/gss/gsecurio
         thumb: "img/thumb_gsecurio.png",
         title: "Proposal Generator",
         text: "Proposal system that generates and emails PDF files to potential customers while in the field.  "
             + "Designed for tablets and phones utilizing a centralized database of customers and proposals "
-            + "(username and password available upon request).",
+            + "(example site down temporarily).",
         hrefGithub: "",
     },
     {
